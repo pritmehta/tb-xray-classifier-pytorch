@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Tuberculosis (TB) X-ray Classifier - PyTorch Version
 
 This project implements a Deep Learning model using PyTorch to classify chest X-ray images for Tuberculosis detection (Normal vs. Tuberculosis). It leverages transfer learning with a pre-trained MobileNetV2 architecture.
@@ -106,3 +107,7 @@ All major parameters (paths, image size, batch size, epochs, learning rate, etc.
 - Early stopping is implemented to prevent overfitting by monitoring validation loss.
 - The `TensorFlow` library is listed as an installation but is not actively used in this PyTorch-centric neural network pipeline. It's included as per the user's specified library list.
 - `OpenCV-Python` is available for more complex image manipulations if needed, though `torchvision.transforms` and `Pillow` handle the current image processing tasks.
+=======
+# tb-xray-classifier-pytorch
+A neural network which detects tuberculosis from chest x-ray images
+>>>>>>> ac0d9cc940bad04f81328aef3d729aef16bf2c7e
