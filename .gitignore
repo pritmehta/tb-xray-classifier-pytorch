@@ -1,0 +1,29 @@
+# Python template additions
+__pycache__/
+*.py[cod]
+*$py.class
+# ... (other standard Python ignores) ...
+
+# Environments
+.env
+venv/  # Or your venv folder name
+env/
+ENV/
+
+# IDE / Editor specific
+.idea/
+.vscode/
+# ...
+
+# Large Model Files - VERY IMPORTANT
+*.pth
+*.keras
+# ...
+
+# Large Data Files/Folders - CRITICAL
+kaggle_dataset_downloaded/
+data_pytorch/
+# Add any other data folders you might have created
+
+# Other generated files (logs, etc. if applicable)
+*.log
